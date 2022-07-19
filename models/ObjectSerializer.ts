@@ -69,15 +69,15 @@ import { FilterExpressions   , FilterExpressionsRelationEnum  , FilterExpression
 import { FilterNotificationTarget } from './FilterNotificationTarget';
 import { GetNotificationRequestBody, GetNotificationRequestBodyEventsEnum     } from './GetNotificationRequestBody';
 import { InvalidIdentifierError } from './InvalidIdentifierError';
-import { Notification                          , NotificationAggregationEnum                                                                                        } from './Notification';
+import { Notification                           , NotificationAggregationEnum                                                                                        } from './Notification';
 import { Notification200Errors } from './Notification200Errors';
-import { NotificationAllOf  , NotificationAllOfAggregationEnum                                                                                        } from './NotificationAllOf';
+import { NotificationAllOf   , NotificationAllOfAggregationEnum                                                                                        } from './NotificationAllOf';
 import { NotificationAllOfAndroidBackgroundLayout } from './NotificationAllOfAndroidBackgroundLayout';
 import { NotificationHistoryBadRequestResponse } from './NotificationHistoryBadRequestResponse';
 import { NotificationHistorySuccessResponse } from './NotificationHistorySuccessResponse';
 import { NotificationSlice } from './NotificationSlice';
 import { NotificationTarget } from './NotificationTarget';
-import { NotificationWithMeta                          , NotificationWithMetaAggregationEnum                                                                                                  } from './NotificationWithMeta';
+import { NotificationWithMeta                           , NotificationWithMetaAggregationEnum                                                                                                  } from './NotificationWithMeta';
 import { NotificationWithMetaAllOf } from './NotificationWithMetaAllOf';
 import { Operator, OperatorOperatorEnum   } from './Operator';
 import { OutcomeData  , OutcomeDataAggregationEnum   } from './OutcomeData';

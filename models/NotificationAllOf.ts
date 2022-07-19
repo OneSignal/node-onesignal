@@ -14,6 +14,10 @@ import { HttpFile } from '../http/http';
 export class NotificationAllOf {
     'id'?: string;
     'value'?: number;
+    /**
+    * Required for SMS Messages. An identifier for tracking message within the OneSignal dashboard or export analytics. Not shown to end user.
+    */
+    'name'?: string;
     'aggregation'?: NotificationAllOfAggregationEnum;
     /**
     * Indicates whether to send to all devices registered under your app\'s Apple iOS platform.
@@ -357,6 +361,12 @@ export class NotificationAllOf {
             "name": "value",
             "baseName": "value",
             "type": "number",
+            "format": ""
+        },
+        {
+            "name": "name",
+            "baseName": "name",
+            "type": "string",
             "format": ""
         },
         {

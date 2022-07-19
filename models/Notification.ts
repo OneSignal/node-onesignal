@@ -112,6 +112,10 @@ export class Notification {
     'include_android_reg_ids'?: Array<string>;
     'id'?: string;
     'value'?: number;
+    /**
+    * Required for SMS Messages. An identifier for tracking message within the OneSignal dashboard or export analytics. Not shown to end user.
+    */
+    'name'?: string;
     'aggregation'?: NotificationAggregationEnum;
     /**
     * Indicates whether to send to all devices registered under your app\'s Apple iOS platform.
@@ -599,6 +603,12 @@ export class Notification {
             "name": "value",
             "baseName": "value",
             "type": "number",
+            "format": ""
+        },
+        {
+            "name": "name",
+            "baseName": "name",
+            "type": "string",
             "format": ""
         },
         {
